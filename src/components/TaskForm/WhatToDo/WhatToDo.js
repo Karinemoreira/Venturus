@@ -23,7 +23,9 @@ export const WhatToDo = () => {
   `
   
   return <FormItem>
-    <WhatToDoLabel>What to do</WhatToDoLabel>
+    <WhatToDoLabel>
+      What to do? 
+      </WhatToDoLabel>
     <InputWhatToDo />
     </FormItem>
 }
